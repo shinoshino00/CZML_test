@@ -28,10 +28,7 @@
   <body>
     <div id="cesiumContainer"></div>
     <script>
-	var viewer = new Cesium.Viewer("cesiumContainer");	
-	// Load CZML from uploaded file
-	var czmlUrl = '/test.czml';  // ← このパスを正しいものに変更してください。
-	viewer.dataSources.add(Cesium.CzmlDataSource.load(czmlUrl))
+      const viewer = new Cesium.Viewer("cesiumContainer");
     </script>
   </body>
 </html>
