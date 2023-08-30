@@ -30,7 +30,7 @@
     <script>
 	const viewer = new Cesium.Viewer("cesiumContainer");	
 	// Load CZML from uploaded file
-	var czmlUrl = '/test.czml';  // ← このパスを正しいものに変更してください。
+	const czmlUrl = '/test.czml';  // ← このパスを正しいものに変更してください。
 	viewer.dataSources.add(Cesium.CzmlDataSource.load(czmlUrl))
     </script>
   </body>
